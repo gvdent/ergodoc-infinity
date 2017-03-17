@@ -18,8 +18,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "ESC",
-                    "label": "ESC"
+                    "key": "LCK1",
+                    "label": "LOCK-1"
                 },
                 "1": {
                     "key": "F11",
@@ -137,8 +137,8 @@
             "h": 6,
             "layers": {
                 "0": {
-                    "key": "LCK1",
-                    "label": "LOCK-1"
+                    "key": "CONS:VOLUMEDOWN",
+                    "label": "VOL-"
                 }
             }
         },
@@ -660,6 +660,10 @@
                 "0": {
                     "key": "MINUS",
                     "label": "-"
+                },
+                "2": {
+                    "key": "#:flashMode()",
+                    "label": "FLASH"
                 }
             }
         },
@@ -671,8 +675,8 @@
             "h": 6,
             "layers": {
                 "0": {
-                    "key": "LBRACE",
-                    "label": "["
+                    "key": "CONS:VOLUMEUP",
+                    "label": "VOL+"
                 }
             }
         },
