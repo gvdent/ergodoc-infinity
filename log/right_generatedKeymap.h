@@ -220,13 +220,13 @@ Guide_RM( 70 ) = { 1, 15, KEY_3, 0 };
 Guide_RM( 71 ) = { 1, 15, KEY_SEMICOLON, 0 };
 Guide_RM( 72 ) = { 1, 15, KEY_LGUI, 0 };
 Guide_RM( 73 ) = { 1, 15, KEY_F9, 0 };
-Guide_RM( 74 ) = { 1, 15, KEY_F11, 0 };
-Guide_RM( 75 ) = { 1, 15, KEY_F12, 0 };
-Guide_RM( 76 ) = { 1, 15, KEY_F6, 0 };
-Guide_RM( 77 ) = { 1, 15, KEY_F2, 0 };
-Guide_RM( 78 ) = { 1, 15, KEY_F10, 0 };
-Guide_RM( 79 ) = { 1, 15, KEY_F5, 0 };
-Guide_RM( 80 ) = { 1, 15, KEY_F1, 0 };
+Guide_RM( 74 ) = { 1, 15, KEY_F6, 0 };
+Guide_RM( 75 ) = { 1, 15, KEY_F2, 0 };
+Guide_RM( 76 ) = { 1, 15, KEY_F10, 0 };
+Guide_RM( 77 ) = { 1, 15, KEY_F5, 0 };
+Guide_RM( 78 ) = { 1, 15, KEY_F1, 0 };
+Guide_RM( 79 ) = { 1, 15, KEY_F12, 0 };
+Guide_RM( 80 ) = { 1, 15, KEY_F11, 0 };
 Guide_RM( 81 ) = { 1, 15, KEY_F7, 0 };
 Guide_RM( 82 ) = { 1, 15, KEY_F4, 0 };
 Guide_RM( 83 ) = { 1, 15, KEY_F8, 0 };
@@ -447,13 +447,13 @@ Guide_TM( 73 ) = { 1, 0x00, 0x01, 0x32, 0 };
 Guide_TM( 74 ) = { 1, 0x00, 0x01, 0x19, 0 };
 Guide_TM( 75 ) = { 1, 0x00, 0x01, 0x59, 0 };
 Guide_TM( 76 ) = { 1, 0x00, 0x01, 0x06, 0 };
-Guide_TM( 77 ) = { 1, 0x00, 0x01, 0x2F, 0 };
-Guide_TM( 78 ) = { 1, 0x00, 0x01, 0x02, 0 };
-Guide_TM( 79 ) = { 1, 0x00, 0x01, 0x03, 0 };
-Guide_TM( 80 ) = { 1, 0x00, 0x01, 0x33, 0 };
-Guide_TM( 81 ) = { 1, 0x00, 0x01, 0x07, 0 };
-Guide_TM( 82 ) = { 1, 0x00, 0x01, 0x30, 0 };
-Guide_TM( 83 ) = { 1, 0x00, 0x01, 0x34, 0 };
+Guide_TM( 77 ) = { 1, 0x00, 0x01, 0x03, 0 };
+Guide_TM( 78 ) = { 1, 0x00, 0x01, 0x33, 0 };
+Guide_TM( 79 ) = { 1, 0x00, 0x01, 0x07, 0 };
+Guide_TM( 80 ) = { 1, 0x00, 0x01, 0x30, 0 };
+Guide_TM( 81 ) = { 1, 0x00, 0x01, 0x34, 0 };
+Guide_TM( 82 ) = { 1, 0x00, 0x01, 0x08, 0 };
+Guide_TM( 83 ) = { 1, 0x00, 0x01, 0x35, 0 };
 Guide_TM( 84 ) = { 1, 0x00, 0x01, 0x04, 0 };
 Guide_TM( 85 ) = { 1, 0x00, 0x01, 0x31, 0 };
 Guide_TM( 86 ) = { 1, 0x00, 0x01, 0x05, 0 };
@@ -711,13 +711,12 @@ Define_TL( default, 0x59 ) = { 1, 75 };
 
 // - Partial Layers -
 // Partial Layer 1
-Define_TL( layer1, 0x02 ) = { 1, 78 };
-Define_TL( layer1, 0x03 ) = { 1, 79 };
+Define_TL( layer1, 0x03 ) = { 1, 77 };
 Define_TL( layer1, 0x04 ) = { 1, 84 };
 Define_TL( layer1, 0x05 ) = { 1, 86 };
 Define_TL( layer1, 0x06 ) = { 1, 76 };
-Define_TL( layer1, 0x07 ) = { 1, 81 };
-Define_TL( layer1, 0x08 ) = { 0 };
+Define_TL( layer1, 0x07 ) = { 1, 79 };
+Define_TL( layer1, 0x08 ) = { 1, 82 };
 Define_TL( layer1, 0x09 ) = { 0 };
 Define_TL( layer1, 0x0A ) = { 0 };
 Define_TL( layer1, 0x0B ) = { 0 };
@@ -756,12 +755,13 @@ Define_TL( layer1, 0x2B ) = { 0 };
 Define_TL( layer1, 0x2C ) = { 0 };
 Define_TL( layer1, 0x2D ) = { 0 };
 Define_TL( layer1, 0x2E ) = { 0 };
-Define_TL( layer1, 0x2F ) = { 1, 77 };
-Define_TL( layer1, 0x30 ) = { 1, 82 };
+Define_TL( layer1, 0x2F ) = { 0 };
+Define_TL( layer1, 0x30 ) = { 1, 80 };
 Define_TL( layer1, 0x31 ) = { 1, 85 };
 Define_TL( layer1, 0x32 ) = { 1, 87 };
-Define_TL( layer1, 0x33 ) = { 1, 80 };
-Define_TL( layer1, 0x34 ) = { 1, 83 };
+Define_TL( layer1, 0x33 ) = { 1, 78 };
+Define_TL( layer1, 0x34 ) = { 1, 81 };
+Define_TL( layer1, 0x35 ) = { 1, 83 };
 
 // Partial Layer 2
 Define_TL( layer2, 0x04 ) = { 1, 106 };
@@ -848,7 +848,7 @@ default_tl_0x02, default_tl_0x03, default_tl_0x04, default_tl_0x05, default_tl_0
 // - Partial Layer ScanCode Lookup Maps -
 // Partial Layer 1
 const nat_ptr_t *layer1_scanMap[] = {
-layer1_tl_0x02, layer1_tl_0x03, layer1_tl_0x04, layer1_tl_0x05, layer1_tl_0x06, layer1_tl_0x07, layer1_tl_0x08, layer1_tl_0x09, layer1_tl_0x0A, layer1_tl_0x0B, layer1_tl_0x0C, layer1_tl_0x0D, layer1_tl_0x0E, layer1_tl_0x0F, layer1_tl_0x10, layer1_tl_0x11, layer1_tl_0x12, layer1_tl_0x13, layer1_tl_0x14, layer1_tl_0x15, layer1_tl_0x16, layer1_tl_0x17, layer1_tl_0x18, layer1_tl_0x19, layer1_tl_0x1A, layer1_tl_0x1B, layer1_tl_0x1C, layer1_tl_0x1D, layer1_tl_0x1E, layer1_tl_0x1F, layer1_tl_0x20, layer1_tl_0x21, layer1_tl_0x22, layer1_tl_0x23, layer1_tl_0x24, layer1_tl_0x25, layer1_tl_0x26, layer1_tl_0x27, layer1_tl_0x28, layer1_tl_0x29, layer1_tl_0x2A, layer1_tl_0x2B, layer1_tl_0x2C, layer1_tl_0x2D, layer1_tl_0x2E, layer1_tl_0x2F, layer1_tl_0x30, layer1_tl_0x31, layer1_tl_0x32, layer1_tl_0x33, layer1_tl_0x34
+layer1_tl_0x03, layer1_tl_0x04, layer1_tl_0x05, layer1_tl_0x06, layer1_tl_0x07, layer1_tl_0x08, layer1_tl_0x09, layer1_tl_0x0A, layer1_tl_0x0B, layer1_tl_0x0C, layer1_tl_0x0D, layer1_tl_0x0E, layer1_tl_0x0F, layer1_tl_0x10, layer1_tl_0x11, layer1_tl_0x12, layer1_tl_0x13, layer1_tl_0x14, layer1_tl_0x15, layer1_tl_0x16, layer1_tl_0x17, layer1_tl_0x18, layer1_tl_0x19, layer1_tl_0x1A, layer1_tl_0x1B, layer1_tl_0x1C, layer1_tl_0x1D, layer1_tl_0x1E, layer1_tl_0x1F, layer1_tl_0x20, layer1_tl_0x21, layer1_tl_0x22, layer1_tl_0x23, layer1_tl_0x24, layer1_tl_0x25, layer1_tl_0x26, layer1_tl_0x27, layer1_tl_0x28, layer1_tl_0x29, layer1_tl_0x2A, layer1_tl_0x2B, layer1_tl_0x2C, layer1_tl_0x2D, layer1_tl_0x2E, layer1_tl_0x2F, layer1_tl_0x30, layer1_tl_0x31, layer1_tl_0x32, layer1_tl_0x33, layer1_tl_0x34, layer1_tl_0x35
 };
 
 // Partial Layer 2
@@ -866,7 +866,7 @@ layer2_tl_0x04, layer2_tl_0x05, layer2_tl_0x06, layer2_tl_0x07, layer2_tl_0x08, 
 // Index n: Additional layers
 const Layer LayerIndex[] = {
 	Layer_IN( default_scanMap, "D: MDErgo1 + lcdFuncMap", 0x02 ),
-	Layer_IN( layer1_scanMap, "1: MDErgo1 + lcdFuncMap", 0x02 ),
+	Layer_IN( layer1_scanMap, "1: MDErgo1 + lcdFuncMap", 0x03 ),
 	Layer_IN( layer2_scanMap, "2: MDErgo1 + lcdFuncMap", 0x04 ),
 };
 
